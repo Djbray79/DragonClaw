@@ -1,4 +1,4 @@
-class Map1:
+class Map:
     def __init__(self, width, height):
         self.width = width
         self.height = height
@@ -9,9 +9,9 @@ def set_grid(graph, width=2):
             print("%%-%ds" % width % '.', end="")
     print()
 
-def main1():
-    g = Map1(30, 15)
+def main():
+    g = Map(30, 30)
     set_grid(g)
 
-if __name__ == '__main1__':
-    main1()
+if __name__ == '__main__':
+    main()
